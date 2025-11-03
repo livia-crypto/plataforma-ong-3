@@ -1,0 +1,58 @@
+button {
+  background-color: var(--cor-primaria);
+  color: white;
+  border: none;
+  padding: var(--esp-2) var(--esp-3);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: var(--fs-3);
+  transition: background-color 0.3s;
+}
+
+button:hover { background-color: var(--cor-secundaria); }
+button:disabled { background-color: var(--cor-neutra-3); cursor: not-allowed; }
+
+.card {
+  background-color: white;
+  border: 1px solid var(--cor-neutra-2);
+  border-radius: 8px;
+  padding: var(--esp-3);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  grid-column: span 4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--esp-2);
+}
+
+input, select {
+  padding: var(--esp-2);
+  border: 1px solid var(--cor-neutra-2);
+  border-radius: 6px;
+  font-size: var(--fs-3);
+}
+
+input:focus, select:focus {
+  outline: 2px solid var(--cor-secundaria);
+}
+
+.alert {
+  padding: var(--esp-2);
+  border-radius: 6px;
+  color: white;
+  margin-bottom: var(--esp-2);
+}
+
+.alert.sucesso { background-color: var(--cor-sucesso); }
+.alert.erro { background-color: var(--cor-erro); }
+
+.tag {
+  display: inline-block;
+  background-color: var(--cor-terciaria);
+  color: #003049;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: var(--fs-2);
+}

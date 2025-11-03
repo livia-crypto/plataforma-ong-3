@@ -1,0 +1,6 @@
+.text-center { text-align: center; }
+.mt-1 { margin-top: var(--esp-1); }
+.mt-2 { margin-top: var(--esp-2); }
+.mb-2 { margin-bottom: var(--esp-2); }
+.p-3 { padding: var(--esp-3); }
+.bg-primaria { background-color: var(--cor-primaria); color: white; }

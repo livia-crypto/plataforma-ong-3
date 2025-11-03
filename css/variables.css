@@ -1,0 +1,31 @@
+:root {
+  /* Cores */
+  --cor-primaria: #0077b6;
+  --cor-secundaria: #00b4d8;
+  --cor-terciaria: #90e0ef;
+  --cor-neutra-1: #f8f9fa;
+  --cor-neutra-2: #e9ecef;
+  --cor-neutra-3: #6c757d;
+  --cor-sucesso: #2ecc71;
+  --cor-erro: #e63946;
+
+  /* Fontes */
+  --fonte-base: 'Inter', sans-serif;
+  --fs-1: 0.75rem;
+  --fs-2: 0.875rem;
+  --fs-3: 1rem;
+  --fs-4: 1.25rem;
+  --fs-5: 1.5rem;
+  --fs-6: 2rem;
+
+  /* Espaçamento */
+  --esp-1: 8px;
+  --esp-2: 16px;
+  --esp-3: 24px;
+  --esp-4: 32px;
+  --esp-5: 48px;
+  --esp-6: 64px;
+
+  /* Largura máxima do site */
+  --max-width: 1200px;
+}
