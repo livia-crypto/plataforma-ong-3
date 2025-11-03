@@ -1,4 +1,3 @@
-// Menu hambúrguer
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 
@@ -8,8 +7,6 @@ if(menuToggle){
     });
 }
 
-// Sistema SPA simples
-// Esconde todas as seções e mostra só a desejada
 const links = document.querySelectorAll('nav a');
 const sections = document.querySelectorAll('main > section, main > article');
 
